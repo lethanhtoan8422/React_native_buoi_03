@@ -37,7 +37,7 @@ const PageChooseColor = ({route, navigation}) => {
         else if(colorCurrent === "white"){
             setColorProduct(require("./assets/colorPhone/colorWhite.png"))
         }
-    },[colorsChosen])
+    },[])
 
     let handlePressChooseColor = (color) => {
         setColorsChosen(color)
